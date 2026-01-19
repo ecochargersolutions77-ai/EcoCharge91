@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoCharge Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">⚡</div>
+        <div class="brand-text">
+          <div class="brand-name">EcoCharge Solutions LLC</div>
+          <div class="brand-tag">EV Charging • DC Fast Charging</div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Fast EV Charging for Modern Drivers</h1>
+        <p class="lead">
+          Reliable charging solutions for apartments, retail парковки и коммерческие локации.
+        </p>
+
+        <div class="card">
+          <div class="card-title">
+            <div class="name">IZZATULLO MUKHTAROV</div>
+            <div class="role">CEO & Founder</div>
+          </div>
+
+          <div class="contact-list" id="contact">
+            <a class="contact-item" href="tel:+16289995140">
+              <span class="icon">📱</span>
+              <span>628-999-5140</span>
+            </a>
+
+            <a class="contact-item" href="mailto:ecocharge.solutions77@gmail.com">
+              <span class="icon">✉️</span>
+              <span>ecocharge.solutions77@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- Вариант 1: картинка по ссылке -->
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1200&q=80"
+          alt="Electric car charging at an EV charger"
+          loading="lazy"
+        />
+        </div>
+    </section>
+    
+    <section class="section">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="feature">
+          <h3>Site evaluation</h3>
+          <p>Подбор локации, нагрузка, доступность, удобство для клиентов.</p>
+        </div>
+        <div class="feature">
+          <h3>Installation & compliance</h3>
+          <p>Планирование, электрика, безопасность и требования города/штата.</p>
+        </div>
+        <div class="feature">
+          <h3>Operations</h3>
+          <p>Мониторинг, поддержка, стабильная работа станции.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">© 2026 EcoCharge Solutions LLC</div>
+    </footer>
+  </main>
+</body>
+</html>
